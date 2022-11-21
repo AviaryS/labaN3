@@ -1,0 +1,38 @@
+* {
+    text-decoration: none;
+}
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* task 10 */
+
+#database {
+    display: flex;
+}
+.fname{
+    text-align: center;
+    padding: 11px 75px;
+    border: 2px solid black;
+}
+.lname{
+    text-align: center;
+    padding: 11px 75px;
+    border: 2px solid black;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.input{
+    width: 200px;
+    padding: 10px 0px 10px 10px;
+}
+.button {
+    width: 215px;
+    text-align: center;
+    padding: 10px 0px 10px 10px;
+}

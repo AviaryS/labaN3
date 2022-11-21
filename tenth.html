@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Десятое задание</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <!-- Таблица имен и Фамилий -->
+    <div id="database">
+        <div id="fnames">
+            <div class="fname">Имя</div>
+        </div>
+        <div class="lnames" id="lnames">
+            <div class="lname">Фамилия</div>
+        </div>
+    </div>
+
+    <!-- Форма для заполнения имени и фамилии -->
+    <form id="form">
+        <input type="text" name="fname" placeholder="Имя" class="input">
+        <input type="text" name="lname" placeholder="Фамилия" class="input">
+    </form>
+
+    <!-- Кнопка для отправки данных -->
+    <button class="button" onclick="newUser()">Записать</button>
+
+
+    <script src="./assets/js/tenth.js"></script>
+</body>
+</html>
